@@ -50,7 +50,7 @@ const App = () => {
   const dispmessage=()=>{
     const size=validEmails.length;
     if(size===0)
-    window.alert(`Please upload the CSV file!!`);
+    window.alert(`Please upload the CSV file!`);
     else
       window.alert(`Emails sent sucessfully to ${size} valid emails`);
   }
